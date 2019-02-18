@@ -56,7 +56,7 @@ class C1Test {
 
     @Test
     void c1TestAvecPositifsNegatifs () {
-        double [] t = {-23, 98, 56, -45, -23};
+        double [] t = {-26, 112, 56, -47, -26};
         int max = C1.nMax(t);
         int expectedRes = 1;
         assertEquals(expectedRes, max);

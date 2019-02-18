@@ -13,8 +13,8 @@ public class C1 {
 
         max = tab[0];
         for (i=1 ; i<tab.length ; i++) {
-            if (tab[i] > tab[i-1]) {
-               // System.out.println(tab[i] + " plus grand que " + tab[i-1]);
+            if (tab[i] > max) {
+                System.out.println(tab[i] + " plus grand que " + tab[i-1]);
                 max=tab[i];
             }
         }

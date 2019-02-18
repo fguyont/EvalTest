@@ -14,7 +14,7 @@ public class C1 {
         max = tab[0];
         for (i=1 ; i<tab.length ; i++) {
             if (tab[i] > max) {
-                System.out.println(tab[i] + " plus grand que " + tab[i-1]);
+                System.out.println(tab[i] + " plus grand que " + max);
                 max=tab[i];
             }
         }
@@ -23,7 +23,7 @@ public class C1 {
                 countMax++;
             }
         }
-        System.out.println(max + " apparaît " + countMax);
+        System.out.println(max + " apparaît " + countMax + " fois");
         return countMax;
     }
 }

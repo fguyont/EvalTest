@@ -62,5 +62,17 @@ class C1Test {
         assertEquals(expectedRes, max);
     }
 
+    @Test
+    void c1TestSansElement () {
+        double [] t = {};
+        int max;
+        try {
+            max=C1.nMax(t);
+            fail();
+        }
+        catch (EmptyArgException eae){
+        }
+    }
+
 
 }
